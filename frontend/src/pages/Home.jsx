@@ -11,7 +11,7 @@ export default function Home() {
       const res = await API.get("/");
       setTasks(res.data);
     } catch (err) {
-      console.error("❌ Fetch error:", err.message);
+      console.error(" Fetch error:", err.message);
     }
   };
 
